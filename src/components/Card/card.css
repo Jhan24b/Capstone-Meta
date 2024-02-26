@@ -1,0 +1,46 @@
+.card {
+  width: 228px;
+  background-color: #edefee;
+  padding: 0px 16px;
+  margin-top: -10px;
+  text-align: left;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+}
+
+.encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.picture {
+  width: 260px;
+  height: 180px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.cardTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cardPrice {
+  color: #f4ce14;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.cardDescription {
+  color: #333333;
+  font-family: "Karla";
+  font-size: 16px;
+  line-height: 1.5;
+  height: 160px;
+}
+
+.btn-delivery{
+  font-size: 16px;
+  font-weight: 600;
+}
