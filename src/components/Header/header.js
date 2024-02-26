@@ -1,21 +1,16 @@
 import "./header.css";
+import Logo from  '../../icons_assets/Logo.svg'
+import Nav from "../Nav/nav";
 
 function Header() {
   return (
     <header className="header">
       <img
-        src={require("../../../src/img/aa38384d3942a55696d8070552aed2f4c190fc14.jpg")}
+        src={Logo}
         alt="Logo Little Lemmon"
         width={"202px"}
       />
-      <nav className="navigation">
-        <a href="#Home">Home</a>
-        <a href="#Menu">Menu</a>
-        <a href="#About">About</a>
-        <a href="/Reservations">Reservations</a>
-        <a href="/Order">Order Online</a>
-        <a href="/Login">Login</a>
-      </nav>
+      <Nav/>
     </header>
   );
 }

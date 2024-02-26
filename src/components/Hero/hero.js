@@ -15,7 +15,7 @@ function Hero() {
         <div className="btnReserva" onClick={console.log("ji")}>Reserve a Table</div>
       </div>
       <img
-        src={require("../../../src/img/3d3cce7a3104bf255ed0e69195e2a157338c1bff.jpg")}
+        src={require("../../icons_assets/restaurant.jpg")}
         alt="bruschetas"
         width={"375px"}
       />
