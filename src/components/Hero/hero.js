@@ -12,10 +12,10 @@ function Hero() {
           tempor et qui ut. Eu minim nulla eu sit aliqua cupidatat velit est
           anim cillum est veniam laboris.
         </p>
-        <div className="btnReserva" onClick={console.log("ji")}>Reserve a Table</div>
+        <div className="btnReserva" aria-label="Reservar una mesa" onClick={()=>{window.location.href = '/booking'}}>Reserve a Table</div>
       </div>
       <img
-        src={require("../../icons_assets/restaurant.jpg")}
+        src={require("../../icons_assets/restauranfood.jpg")}
         alt="bruschetas"
         width={"375px"}
       />

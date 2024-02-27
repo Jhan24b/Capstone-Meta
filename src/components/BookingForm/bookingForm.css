@@ -1,0 +1,9 @@
+.btnSubmit{
+  padding: 16px;
+  cursor: pointer;
+  background-color: #495E57;
+  color: #edefee;
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 16px;
+}

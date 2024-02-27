@@ -1,0 +1,47 @@
+.booking{
+  
+}
+
+.titleBooking{
+  margin: 16px 0px;
+  text-align: center;
+}
+
+.formulario {
+  display: grid;
+  max-width: 300px;
+  gap: 20px;
+  margin: auto;
+  padding: 48px 24px;
+  border-style: solid;
+  border-color: #edefee;
+  border-radius: 8px;
+}
+
+.contenedor{
+display: flex;
+flex-direction: column;
+}
+
+.descriptionInput{
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Karla';
+}
+
+.design{
+  padding: 8px 16px;
+  border-style: outset;
+  border-color: #edeefe;
+  border-radius: 5px;
+  font-family: 'Karla';
+}
+
+.notification{
+  background-color: rgb(255, 217, 217);
+  color: rgb(202, 0, 0);
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}

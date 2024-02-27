@@ -34,11 +34,11 @@ function Specials() {
     <section className="specials" id="#Hero">
       <div className={"encabezadoSpecials"}>
         <h2 className={"title"}>This weeks specials!</h2>
-        <div className={"btnReserva"}>Online Menu</div>
+        <div className={"btnReserva"} aria-label="See online menu" onClick={()=>{console.log("future behavior")}}>Online Menu</div>
       </div>
       <div className="cards">
-      {specialDishes.map((specialDish) => {
-        return <Card props={specialDish} />;
+      {specialDishes.map((specialDish, idx) => {
+        return <Card props={specialDish} key={idx}/>;
       })}
       </div>
     </section>
